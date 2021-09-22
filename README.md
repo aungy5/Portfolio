@@ -1,7 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
   # Portfolio Update
-  [Link to Portfolio] (https://aungy5.github.io/Portfolio/)
+  [Link to Portfolio](https://aungy5.github.io/Portfolio/)
   ## Table of Contents
 - [Description](#description)
 
