@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+
+  <title>My Portfolio</title>
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Andrew Ungvary</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#aboutme">About Me</a>
+        <a class="nav-link" href="https://github.com/aungy5?tab=repositories">GitHub</a>
+        <a class="nav-link" href="https://www.linkedin.com/in/aungy/">LinkedIn</a>
+      </div>
+    </div>
+  </nav>
+
+<body>
+  <header class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <!-- Add classes for a row and align items to the bottom -->
+      <div class="d-flex flex-column">
+        <!-- Add classes to create a column that spans full width on mobile and half width on larger screens -->
+        <div class="col-12">
+          <h1>Welcome to my Landing Page!</h1>
+          <img class="img-fluid" src="assets/images/code.webp" alt="video placeholder" />
+        </div>
+        <!-- Add classes to create a column that spans full width on mobile and half width on larger screens -->
+        <div class="col-12">
+          <h1 id="aboutme">About Me</h1>
+          <p>Dedicated Tech Professional with experience in web applications and production support. Recognized as a proactive, resourceful, and persistent problem-solver. Excellent communicator with effective client relationship-management skills. Graduate of Syracuse University with a BA in Economics. Will graduate from the University of Pennsylvania with a certificate in full stack web development in November of 2021.
+          </p>
+          <button type="button" class="btn btn-light"><a href="https://docs.google.com/document/d/e/2PACX-1vS1sb1ENhpV3Qd6q3jYfIkbGUKogv02R36VyANqCtuNFK4Xtb166H1fDrKK8HkDcrjkzKQXRZaTv7UU/pub
+            ">Click Here to view my Resume!</a></button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container my-3">
+    <!-- Add a class to create a row -->
+    <section class="row">
+      <!-- Add classes to create a column that spans full width on smaller screens and 3/4 on larger screens -->
+      <div class="col-12 col-lg-9">
+        <h2>My Projects</h2>
+
+        <!-- Add classes to create a row with content having space around it -->
+        <section class="row align-items-top">
+          <!-- Add classes to create a column that spans full width on mobile, half width on medium screens, and 1/3 on larger screens -->
+          <div class="mb-3 col-12 col-md-6 col-lg-4" id="projects">
+            <div class="card">
+              <h3 class="card-header">
+                Team Profile Generator 
+              </h3>
+              <div class="card-body">
+                <p class="card-text">
+                  Created a command line interface that allows users to create an HTML page that stores basic information about each member of their team. The user does not have to code anything, they simply need to enter the information they would like on the page, and it will be rendered into a sleek UI that they can access as soon as they are finished answering the questions. This page can then be used as an employee directory, where team members can have an easy access point to basic information about the other employees on their team.
+                </p>
+                <button class="btn btn-block btn-light"><a href="https://drive.google.com/file/d/1_DeC1EgTLXar9PU60P2JJE3xOhd5EDos/view?usp=sharing">Link to Application Demo</a></button>
+                <button class="btn btn-block btn-light"><a href="https://github.com/aungy5/Team-Profile-Generator">Link to Application Repository</a></button>
+              </div>
+            </div>
+          </div>
+          <!-- Add classes to create a column that spans full width on mobile, half width on medium screens, and 1/3 on larger screens -->
+          <div class="mb-3 col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <h3 class="card-header">
+                README.md Generator 
+              </h3>
+              <div class="card-body">
+                <p class="card-text">
+                  ReadMe files are the hallmark of well-kept applications. They can, however, be a pain to create as users must remember a wide variety of information that must be included in the readME. To solve this problem I created a command line interface where users will be prompted for everything that is required in a readme. After they answer the prompts, their answers will be dynamically infused into a well-formatted ReadMe that includes all necessary information regarding licensing, usage instructions, testing protocols, and more.
+                </p>
+                <button class="btn btn-block btn-light"><a href="https://drive.google.com/file/d/1MvPUsBIF0DuGbvdPqKz7eurwLQ4k_Znh/view?usp=sharing">Link to Application Demo</a></button>
+                <button class="btn btn-block btn-light"><a href="https://github.com/aungy5/ReadMe-Generator">Link to Application Repository</a></button>
+              </div>
+            </div>
+          </div>
+          <!-- Add classes to create a column that spans full width on mobile, half width on medium screens, and 1/3 on larger screens -->
+          <div class="mb-3 col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <h3 class="card-header">
+                StarBooks App
+              </h3>
+              <div class="card-body">
+                <p class="card-text">
+                  For our first project, we created an app that would help people find a book to read. There are plenty of book sites on the internet, but we wanted to consolidate all the data these sites provide into a one-stop-shop for the user. 
+                  We were able to do this by using the Google Books and NYT api. As we worked on this app more and more we realized this could be a very valuable tool for 
+                  librarians to use when they need to help a person find a book to read. We discovered that librarians have many tools that account for literary merit, 
+                  but not necessarily trends or popularity. With our app, librarians can ensure that their collections include popular and relevant works for a given topic. 
+                </p>
+                <button class="btn btn-block btn-light"><a href="https://az84.github.io/Project-1/">Link to Deployed Application</a></button>
+                <button class="btn btn-block btn-light"><a href="https://github.com/az84/Project-1">Link to Application Repository</a></button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Add classes to create a column that spans full width on mobile and 1/4 on larger screens -->
+      <div class="col-12 col-lg-3" id="aboutme">
+        <h2>More To Come Soon!</h2>
+        <p>
+          I will continue to add more projects here as they are completed. Stay tuned for more to come, and if you have any 
+          suggestions as to what I could build, feel free to submit them in the form at the bottom of the page.
+        </p>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- Add classes to create a center-justified row -->
+    <section class="">
+      <!-- Add classes to create a column that spans full width on mobile, half width on medium screens, and only 1/3 on larger screens -->
+      <div class="">
+        <address>
+          <h2>Andrew Ungvary</h2>
+
+          <h5>
+            Call me at <a href="tel:610.608.0403"></a>610-608-0403</a>
+          </h5>
+
+          <h5>
+            Email me at <a href="mailto:aungvary5@gmail.com">aungvary5@gmail.com</a>
+          </h5>
+
+        </address>
+      </div>
+      <!-- Add classes to create a column that spans full width on mobile, half width on medium screens, and only 1/3 on larger screens -->
+      <div class="">
+        <h2>Contact Me</h2>
+        <form>
+          <div class="form-group">
+            <label for="name-input">Your name:</label>
+            <input type="text" class="form-control" id="name-input" placeholder="Leave your name" />
+          </div>
+          <div class="form-group">
+            <label for="comment-input">Your message:</label>
+            <textarea name="comment" id="comment-input" class="form-control"></textarea>
+          </div>
+          <button class="btn btn-success">Submit Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
